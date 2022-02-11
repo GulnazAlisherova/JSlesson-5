@@ -4,4 +4,4 @@ example1.addEventListener('click', function(event){
 
   //alert ('Hello world');
 });
-let example2 = document.querySelector
+let example2 = document.querySelector('#example2');
