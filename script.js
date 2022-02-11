@@ -33,4 +33,6 @@ example.style.width = '20px';
 example.style.height = '20px';
 example.style.backgroundColor = 'black';
 example.style.position = 'absolute';
-document.body.append
+document.body.append(example);
+
+document.body.addEventListener
