@@ -9,3 +9,7 @@ example1.addEventListener('click', function(event){
 document.body.addEventListener('contextmenu', function(event){
   event.preventDefault();
 });
+
+document.body.addEventListener('dbclick', function(event){
+  event.preventDefault();
+});
