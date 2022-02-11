@@ -21,4 +21,10 @@ document.querySelector('div').addEventListener('dbclick', function(event){
 
 document.querySelector('div').addEventListener('dbclick', function(event){
   alert('Hello!');
+  //event.preventDefault(); --doesn't work
+});
+
+document.querySelector('div').addEventListener('mousemove', function(event){
+  alert('Hello!');
+  //event.preventDefault(); --doesn't work
 });
