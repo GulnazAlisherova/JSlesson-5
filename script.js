@@ -12,4 +12,4 @@ example1.addEventListener('click', function(event){
 //   event.preventDefault();
 // });
 
-document.body.addEventListener('contextmenu', f)
+document.body.addEventListener('contextmenu', function(even))
