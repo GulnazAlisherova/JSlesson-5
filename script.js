@@ -31,4 +31,4 @@ document.querySelector('div').addEventListener('mousemove', function(event){
 let example = document.createElement('section', );
 example.style.width = '20px';
 example.style.height = '20px';
-example.style.backgroundColor
+example.style.backgroundColor = 'black';
