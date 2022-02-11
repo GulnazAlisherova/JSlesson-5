@@ -40,7 +40,7 @@ document.body.append(example);
 document.body.addEventListener('mousemove', function(event){
   example.style.top = event.clientY + 'px';
   example.style.left = event.clientX + 'px';
-  console.log(event.clientX);
-  console.log(event.clientY);
+  // console.log(event.clientX);
+  // console.log(event.clientY);
 });
 
