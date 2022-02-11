@@ -1,4 +1,6 @@
 let example1 = document.querySelector('#example1');
 example1.addEventListener('click', function(event){
-  console.log(event);
+  event.preventDefault()
+
+  //alert ('Hello world');
 });
