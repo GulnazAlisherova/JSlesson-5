@@ -14,6 +14,7 @@ document.body.addEventListener('dbclick', function(event){
   event.preventDefault();
 });
 
-document..querySelector('div')('dbclick', function(event){
+document.querySelector('div').addEventListener('dbclick', function(event){
+  console.log(event);
   event.preventDefault();
 });
