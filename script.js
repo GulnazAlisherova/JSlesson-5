@@ -36,5 +36,5 @@ example.style.position = 'absolute';
 document.body.append(example);
 
 document.body.addEventListener('mousemove', function(event){
-  console.log
+  console.log(event.clientX)
 })
