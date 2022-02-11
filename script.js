@@ -47,6 +47,6 @@ document.body.addEventListener('mousemove', function(event){
 let example2 = document.querySelector('#example2');
 
 example2.addEventListener('keydown', function(event){
-  console.log('keydown', event):
-  
+  console.log('keydown', event);
+  if (event.key);
 });
