@@ -29,4 +29,4 @@ document.querySelector('div').addEventListener('mousemove', function(event){
 });
 
 let example = document.createElement('section', );
-example.style
+example.style.width = '20px';
