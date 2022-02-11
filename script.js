@@ -13,3 +13,7 @@ document.body.addEventListener('contextmenu', function(event){
 document.body.addEventListener('dbclick', function(event){
   event.preventDefault();
 });
+
+document..querySelector('div')('dbclick', function(event){
+  event.preventDefault();
+});
