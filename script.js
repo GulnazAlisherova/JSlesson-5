@@ -4,3 +4,4 @@ example1.addEventListener('click', function(event){
 
   //alert ('Hello world');
 });
+let 
