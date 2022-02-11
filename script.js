@@ -18,3 +18,7 @@ document.querySelector('div').addEventListener('dbclick', function(event){
   console.log(event);
   event.preventDefault();
 });
+
+document.querySelector('div').addEventListener('dbclick', function(event){
+  alert('Hello!');
+});
