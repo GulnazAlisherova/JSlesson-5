@@ -28,4 +28,5 @@ document.querySelector('div').addEventListener('mousemove', function(event){
   event.preventDefault();
 });
 
-let example = document.createElement('section', )
+let example = document.createElement('section', );
+example.style
