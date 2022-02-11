@@ -30,13 +30,17 @@ document.querySelector('div').addEventListener('mousemove', function(event){
 
 let example = document.createElement('section', );
 example.style.width = '20px';
+example.textContent = '👺';
+example.style.fontSize = '1rem';
 example.style.height = '20px';
 example.style.backgroundColor = 'black';
 example.style.position = 'absolute';
 document.body.append(example);
 
 document.body.addEventListener('mousemove', function(event){
-  example.style.top = event.clientY + 'px'
+  example.style.top = event.clientY + 'px';
+  example.style.left = event.clientX + 'px';
   console.log(event.clientX);
   console.log(event.clientY);
 });
+
