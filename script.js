@@ -32,3 +32,4 @@ let example = document.createElement('section', );
 example.style.width = '20px';
 example.style.height = '20px';
 example.style.backgroundColor = 'black';
+example.style.position = 
