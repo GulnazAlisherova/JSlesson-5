@@ -53,4 +53,6 @@ example2.addEventListener('keydown', function(event){
   } 
 });
 
-example2.addEventListener('keyup', )
+example2.addEventListener('keyup', function(event){
+  console.log
+});
