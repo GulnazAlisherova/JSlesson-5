@@ -47,7 +47,7 @@
 let example2 = document.querySelector('#example2');
 
 example2.addEventListener('keydown', function(event){
-  const preventList = []
+  const preventList = [1, 2, 3, 4, 5, 6, 7, 8, 9];
   if (preventList.includes(event.key)) {
     event.preventDefault();
   } 
@@ -55,4 +55,4 @@ example2.addEventListener('keydown', function(event){
 
 example2.addEventListener('keyup', function(event){
   console.log('keyup', event);
-});
+}); 
