@@ -27,3 +27,5 @@ document.querySelector('div').addEventListener('dbclick', function(event){
 document.querySelector('div').addEventListener('mousemove', function(event){
   event.preventDefault();
 });
+
+let example = document.createElement('section', )
