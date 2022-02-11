@@ -47,12 +47,12 @@
 let example2 = document.querySelector('#example2');
 
 example2.addEventListener('keydown', function(event){
-  console.log('keydown', event);
+  const preventList
   if (preventList.includes(event.key)) {
     event.preventDefault();
   } 
 });
 
 example2.addEventListener('keyup', function(event){
-  console.log
+  console.log('keyup', event);
 });
