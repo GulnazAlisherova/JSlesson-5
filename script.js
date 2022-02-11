@@ -7,5 +7,5 @@ example1.addEventListener('click', function(event){
   //alert ('Hello world');
  });
 document.body.addEventListener('contextmenu', function(event){
-  event.preventDefault
+  event.preventDefault();
 });
