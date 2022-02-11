@@ -6,8 +6,10 @@ example1.addEventListener('click', function(event){
   
   //alert ('Hello world');
  });
- 
+
 // let example2 = document.querySelector('#example2');
 // example2.addEventListener('click', function(event){
 //   event.preventDefault();
 // });
+
+document.body.addEventListener('contextmenu', f)
