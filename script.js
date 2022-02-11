@@ -1,1 +1,1 @@
-let example1
+let example1 = document.querySelector('#example1')
